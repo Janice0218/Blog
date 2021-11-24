@@ -4,9 +4,9 @@
 * assignment has been copied manually or electronically from any other source (including web sites) or
 * distributed to other students.
 *
-* Name: ____Xiao Hong__________________ Student ID: _____130732159_________ Date: ________2021.4.10________
+* Name: ____Minying Chen__________________ Student ID: _____101541159_________ Date: ________2021.4.10________
 *
-********************************************************************************/ 
+********************************************************************************/
 import { Component } from '@angular/core';
 
 @Component({
@@ -15,5 +15,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bti425-a3-XiaoHong';
+  title = 'bti425-a3-Minying Chen';
 }
