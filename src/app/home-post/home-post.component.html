@@ -1,0 +1,64 @@
+
+  <!-- Post -->
+  <div class="row d-flex align-items-stretch">
+    <div class="text col-lg-7">
+      <div class="text-inner d-flex align-items-center">
+        <div class="content">
+          <header class="post-header">
+            <div class="category"><a routerLink>{{posts[0].category}}</a></div><a routerLink="/post">
+              <h2 class="h4">{{posts[0].title}}</h2></a>
+          </header>
+          <div  [innerHtml]="posts[0].post"></div>
+          <footer class="post-footer d-flex align-items-center"><a routerLink class="author d-flex align-items-center flex-wrap">
+              <div class="avatar"><img src="/assets/img/avatar-1.jpg" alt="..." class="img-fluid"></div>
+              <div class="title"><span>{{posts[0].postedBy}}</span></div></a>
+            <div class="date"><i class="icon-clock"></i> {{posts[0].postDate}}</div>
+            <div class="comments"><i class="icon-comment"></i>{{posts[0].comments.length}}</div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <div class="image col-lg-5"><img [src]="posts[0].featuredImage" alt="..."></div>
+  </div>
+  <!-- Post -->
+  <div class="row d-flex align-items-stretch">
+    <div class="image col-lg-5"><img [src]="posts[1].featuredImage" alt="..."></div>
+    <div class="text col-lg-7">
+      <div class="text-inner d-flex align-items-center">
+        <div class="content">
+          <header class="post-header">
+            <div class="category"><a routerLink>{{posts[1].category}}</a></div><a routerLink="/post">
+              <h2 class="h4">{{posts[1].title}}</h2></a>
+          </header>
+          <div [innerHtml]="posts[1].post"></div>
+          <footer class="post-footer d-flex align-items-center"><a routerLink class="author d-flex align-items-center flex-wrap">
+              <div class="avatar"><img src="/assets/img/avatar-2.jpg" alt="..." class="img-fluid"></div>
+              <div class="title"><span>{{posts[1].postedBy}}</span></div></a>
+            <div class="date"><i class="icon-clock"></i> {{posts[1].postDate}}</div>
+            <div class="comments"><i class="icon-comment"></i>{{posts[1].comments.length}}</div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Post                            -->
+  <div class="row d-flex align-items-stretch">
+    <div class="text col-lg-7">
+      <div class="text-inner d-flex align-items-center">
+        <div class="content">
+          <header class="post-header">
+            <div class="category"><a routerLink>{{posts[2].category}}</a></div><a routerLink="/post">
+              <h2 class="h4">{{posts[2].title}}</h2></a>
+          </header>
+          <div [innerHtml]="posts[2].post"></div>
+          <footer class="post-footer d-flex align-items-center"><a routerLink class="author d-flex align-items-center flex-wrap">
+              <div class="avatar"><img src="/assets/img/avatar-3.jpg" alt="..." class="img-fluid"></div>
+              <div class="title"><span>{{posts[2].postedBy}}</span></div></a>
+            <div class="date"><i class="icon-clock"></i> {{posts[2].postDate}}</div>
+            <div class="comments"><i class="icon-comment"></i>{{posts[0].comments.length}}</div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <div class="image col-lg-5"><img [src]="posts[2].featuredImage" alt="..."></div>
+  </div>
